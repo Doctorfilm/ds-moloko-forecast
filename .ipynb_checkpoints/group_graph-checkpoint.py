@@ -45,7 +45,7 @@ def hist_graph(df, list_pl, list_pl_name, suptitle='', p_hue=None):
             data=df,
             x=param,
             hue=p_hue,
-            bins=10,
+            bins=15,
             multiple='dodge',
             shrink=0.8
         )
